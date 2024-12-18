@@ -1,6 +1,6 @@
 # Maze_Game
 
-What is the maze game:
+What is the Maze Game:
 
 The Maze Game is a two-player game that requires teamwork and coordination. Players are randomly assigned one of two roles:
 * The Guide has a full view of the maze and will provide directions to the Navigator
