@@ -1,4 +1,5 @@
-const socket = io('http://172.20.10.2:5000');
+// CHANGE THIS with your network IPv4 address
+const socket = io('http://192.168.0.78:5000');
 
 let navigator;
 let role;

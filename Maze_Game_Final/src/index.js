@@ -63,5 +63,6 @@ io.on("connect", (socket) => {
 
 app.use(express.static("public"));
 
-
-httpServer.listen(5000, "172.20.10.2");
+// change THIS!!! with your IP address. run ipconfig
+// and get the IPv4 of your network (its the last bit information)
+httpServer.listen(5000, "192.168.0.78");
