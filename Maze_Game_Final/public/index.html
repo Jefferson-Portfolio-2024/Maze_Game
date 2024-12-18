@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Guide</title>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: black;
+            font-family: 'customFont', sans-serif;
+            color: red;
+        }
+        .start-screen{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: red;
+            flex-direction: column;
+        }
+        h1{
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .difficulty-select{
+            padding: 10px;
+            font-family: 'customFont', sans-serif;
+            font-size: 16px;
+            border: 2px solid #fff;
+            background-color: transparent;
+            color: red;
+            margin-bottom: 20px;
+        }
+        .retro-button{
+            padding: 10px 20px;
+            border: 2px solid green;
+            color: darkorange;
+            font-family: 'customFont', sans-serif;
+            font-size: 16px;
+            border-radius: 8px;
+            text-shadow: 1px 1px 2px #000;
+            background-image: linear-gradient(to bottom, rgb(113, 245, 6), blue);
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .retro-button:hover{
+            animation: pulse 1s infinite alternate;
+        }
+        @keyframes pulse {
+            0%{
+                transform: scale(1);
+            }
+            100%{
+                transform: scale(1.4);
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="start-screen" id="guide-start-screen">
+    <h1>Labyrinth</h1>
+    <p>
+        The guide will help the navigator navigate through the maze by communicating with them. 
+        The Navigator will use the WASD keys to move through the Labyrinth
+    </p>
+    <button class="retro-button" id="start-button" onclick="startGame()">Start Game</button>
+    <p id="status-message"></p>
+</div>
+<script src="p5.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="guide.js"></script>
+</body>
+</html>

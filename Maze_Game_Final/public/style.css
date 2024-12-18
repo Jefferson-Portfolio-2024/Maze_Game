@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'customFont';
+    src: url('PixeloidSansBold-PKnYd.ttf') format('truetype');
+}
+body{
+    font-family: 'customFont', sans-serif;
+}

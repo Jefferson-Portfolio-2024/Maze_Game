@@ -1,0 +1,13 @@
+{
+  "name": "maze_game_final",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node/src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "NIT",
+  "description": ""
+}
