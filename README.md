@@ -7,6 +7,7 @@ The Maze Game is a two-player game that requires teamwork and coordination. Play
 * The Navigator is blind to the maze and moves using the "WASD" keys. They will have to follow the Guide's instructions. 
 
 Your goal is to work together to navigate through the maze and reach the end before the timer runs out.
+
 Please note:
 * This game runs locally, so both players must be connected to the same Wi-Fi network
 * This Game works best in Visual Studio Code(VSC) and requires Node.js to be installed.
@@ -14,7 +15,7 @@ Please note:
 How to run The Maze Game:
 NOTE: Only one player needs to do steps 2-8. 
 
-1. Connect to your WIFI
+1. Connect to your Wi-Fi
     Ensure both player are on the same Wi-Fi network
 2. Download the latest version of Node.js. 
 3. Locate the Project Folder
