@@ -13,7 +13,7 @@ Please note:
 * This Game works best in Visual Studio Code(VSC) and requires Node.js to be installed.
  
 How to run The Maze Game:
-NOTE: Only one player needs to do steps 2-8. 
+NOTE: Only one player needs to do steps 2-7. 
 
 1. Connect to your Wi-Fi
     Ensure both player are on the same Wi-Fi network
